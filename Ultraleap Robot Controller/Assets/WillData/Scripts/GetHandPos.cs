@@ -35,6 +35,7 @@ public class GetHandPos : MonoBehaviour
 
     private Vector3 handPosition = Vector3.zero;
     private Vector3 handRotation = Vector3.zero;
+    private Vector3 lastHandPosition = Vector3.zero;
 
     private Transform handTransform;
 
@@ -102,12 +103,15 @@ public class GetHandPos : MonoBehaviour
 
         handRotation = handRotation - handRotOffset;
 
-
-        handPosition = new Vector3(
-            (handTransform.position.x - handPosOffset.x) * xySensitivity * inputMultiplier,
-            (handTransform.position.y) * zSensitivity * inputMultiplier,
-            (handTransform.position.z - handPosOffset.z) * xySensitivity * inputMultiplier
-        );
+        if (rightHand.transform.parent.gameObject.activeSelf == false && leftHand.transform.parent.gameObject.activeSelf == false) {
+            handPosition = lastHandPosition;
+        } else {
+            handPosition = new Vector3(
+                (handTransform.position.x - handPosOffset.x) * xySensitivity * inputMultiplier,
+                (handTransform.position.y) * zSensitivity * inputMultiplier,
+                (handTransform.position.z - handPosOffset.z) * xySensitivity * inputMultiplier
+            );
+        }
 
 
         handRotation = new Quaternion(
@@ -116,6 +120,8 @@ public class GetHandPos : MonoBehaviour
             (int)Mathf.Round(handTransform.rotation.z * inputMultiplier),
             (int)Mathf.Round(handTransform.rotation.w * inputMultiplier)
         ).eulerAngles + handRotOffset;
+
+        lastHandPosition = handPosition;
 
 
         simulationReference.position = new Vector3(handPosition.x * 1, Mathf.Clamp(handPosition.y * 1, 0.35f, .5f), handPosition.z * 1);
