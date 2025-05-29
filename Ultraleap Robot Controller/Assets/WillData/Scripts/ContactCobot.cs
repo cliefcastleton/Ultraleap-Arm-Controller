@@ -36,16 +36,24 @@ public class ContactCobot : MonoBehaviour
 
     private string[] warnings = { "", "", "", "", "" };
 
+    private int coolFrames = 250;
+    private int currentCoolFrames = 0;
+
 
     void Start()
     {
-        previousData = handData.GetHandPose() + ";" +
+        previousData = (handData.GetHandPose()) + ";" +
                 J1.rotation.y.ToString() + "," +
                 J2.rotation.x.ToString() + "," +
                 J3.rotation.x.ToString() + "," +
                 J4.rotation.x.ToString();
 
         OpenConnection();
+    }
+
+    void Update()
+    {
+        currentCoolFrames++; 
     }
 
 
@@ -56,7 +64,7 @@ public class ContactCobot : MonoBehaviour
         host = IPLabel.text;
 
 
-        
+
 
         if (IPLabel.text != "")
         {
@@ -132,7 +140,7 @@ public class ContactCobot : MonoBehaviour
                 Mathf.Clamp(Mathf.Round(cobotIK.GetJoint1Angle()), -150, 150).ToString() + "," +
                 Mathf.Round(cobotIK.J2Angle).ToString() + "," +
                 Mathf.Round(cobotIK.J3Angle).ToString() + "," +
-                Mathf.Round(cobotIK.J4Angle).ToString() + ", hehehehehehehe";
+                Mathf.Round(cobotIK.J4Angle).ToString() + ", 0";
 
             byte[] responseData = new byte[1024];
             StringBuilder responseMessage = new StringBuilder();
@@ -147,13 +155,14 @@ public class ContactCobot : MonoBehaviour
 
             if (responseMessage != null)
             {
-                if (data != previousData && cobotEnabled == true)
+                if (data != previousData && cobotEnabled == true && currentCoolFrames >= coolFrames)
                 {
                     byte[] encodedData = Encoding.ASCII.GetBytes(data);
                     stream.Write(encodedData, 0, encodedData.Length);
-                    //Debug.Log("Message sent to server: " + data);
+                    Debug.Log("Message sent to server: " + data);
 
                     previousData = data;
+                    coolFrames = 0;
                 }
             }
             else

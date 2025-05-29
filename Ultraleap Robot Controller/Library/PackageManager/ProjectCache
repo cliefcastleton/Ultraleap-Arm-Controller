@@ -1,37 +1,37 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
+    m_FilePath: /Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
       Robot Controller/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638833480170000000
-    m_Hash: 4266573564
+      ticks: 638839681990000000
+    m_Hash: 106561187
   m_LockFileStatus:
-    m_FilePath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
+    m_FilePath: /Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
       Robot Controller/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638833480170000000
-    m_Hash: 1381885446
+      ticks: 638839682120000000
+    m_Hash: 1454870637
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
+m_ProjectPath: /Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
   Robot Controller/Packages
-m_EditorVersion: 6000.0.24f1 (11fa355cd605)
+m_EditorVersion: 6000.1.4f1 (03270eb687c6)
 m_ResolvedPackages:
 - packageId: com.endel.nativewebsocket@https://github.com/endel/NativeWebSocket.git#upm
   testable: 0
   isDirectDependency: 1
   version: 1.1.4
   source: 5
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.endel.nativewebsocket
+  resolvedPath: /Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
+    Robot Controller/Library/PackageCache/com.endel.nativewebsocket@c5101c077622
   assetPath: Packages/com.endel.nativewebsocket
   name: com.endel.nativewebsocket
   displayName: Native WebSockets
@@ -95,13 +95,13 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 
     minimumUnityVersion: 2019.1.0a1
-- packageId: com.unity.ai.navigation@2.0.4
+- packageId: com.unity.ai.navigation@2.0.7
   testable: 0
   isDirectDependency: 1
-  version: 2.0.4
+  version: 2.0.7
   source: 1
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.ai.navigation
+  resolvedPath: /Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
+    Robot Controller/Library/PackageCache/com.unity.ai.navigation@39ae74efb85f
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -138,9 +138,6 @@ m_ResolvedPackages:
     - 2.0.6
     - 2.0.7
     compatible:
-    - 2.0.4
-    - 2.0.5
-    - 2.0.6
     - 2.0.7
     recommended: 2.0.7
     deprecated: []
@@ -179,18 +176,18 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638605675584270000
+  datePublishedTicks: 638797994194330000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ai.navigation.git
-    revision: 2c565f88d424bed980de32ead5a48791e9db9936
+    revision: f9335c44bc8104d2271e2a5c17c1829670fd7ca6
     path: 
   unityLifecycle:
-    version: 2.0.4
+    version: 2.0.7
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -200,22 +197,24 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n* NavMesh Modifier was not overriding the
-    area type in a NavMesh built from within an `Awake()` method ([NAVB-39](https://issuetracker.unity3d.com/issues/building-navmesh-with-navmeshsurface-does-not-bake-areas-into-navmeshtriangulation-when-buildnavmesh-is-called-in-awake))"}'
+  upmReserved: '{"changelog":"### Changed\n* The minimum supported editor version
+    is Unity 6 LTS. Compatibility with Unity 2023.2 is no longer guaranteed going
+    forward.\n\n### Fixed\n* Baking NavMeshSurface no longer fails when the game
+    object name has invalid file name characters."}'
   assetStore:
     productId: 
-  fingerprint: 3f89ad87253dcaae2d0bb583bd5ef4c4f2c17764
+  fingerprint: 39ae74efb85f9b44dc389774fc59c2ce4a8aa3b6
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.0.4
-    minimumUnityVersion: 2023.2.0a18
-- packageId: com.unity.collab-proxy@2.5.2
+    minimumPackageVersion: 2.0.7
+    minimumUnityVersion: 6000.0.0a1
+- packageId: com.unity.collab-proxy@2.8.2
   testable: 0
   isDirectDependency: 1
-  version: 2.5.2
+  version: 2.8.2
   source: 1
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.collab-proxy
+  resolvedPath: /Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
+    Robot Controller/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -311,12 +310,8 @@ m_ResolvedPackages:
     - 2.8.1
     - 2.8.2
     compatible:
-    - 2.5.2
-    - 2.6.0
-    - 2.7.1
-    - 2.8.1
     - 2.8.2
-    recommended: 2.5.2
+    recommended: 2.8.2
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -335,6 +330,7 @@ m_ResolvedPackages:
   - teams
   - version
   - vcs
+  - uvcs
   registry:
     id: main
     name: 
@@ -345,18 +341,18 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638630364536670000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.5/manual/index.html
+  datePublishedTicks: 638822079721750000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: c402e6396d3ea20ecb2d59eac908e7e0a30cd7e6
+    revision: c1fbc35e6bbae1ac0e9a3481e441dfdb3602b5ef
     path: 
   unityLifecycle:
-    version: 2.5.2
+    version: 2.8.2
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -366,22 +362,23 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n\n- Fix token renewal issue: Can''t obtain
-    a new token (Message: Invalid Refresh Token., Code: 132.104)"}'
+  upmReserved: '{"changelog":"- Fixed false positive error showing in console if
+    creating a workspace from the Hub with a version of the Unity Editor shipping
+    with a default Version Control package older than version 2.7.1."}'
   assetStore:
     productId: 
-  fingerprint: da7e55b87e08569f31766e7cabc37bc033c9c7f9
+  fingerprint: c854d1f7d97fbe1905f3e3591ded6fe77d96e654
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.5.2
-    minimumUnityVersion: 2020.3.48f1
-- packageId: com.unity.ide.rider@3.0.34
+    minimumPackageVersion: 2.8.2
+    minimumUnityVersion: 2021.3.0f1
+- packageId: com.unity.ide.rider@3.0.36
   testable: 0
   isDirectDependency: 1
-  version: 3.0.34
+  version: 3.0.36
   source: 1
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.ide.rider
+  resolvedPath: /Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
+    Robot Controller/Library/PackageCache/com.unity.ide.rider@4d374c7eb6db
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -444,9 +441,6 @@ m_ResolvedPackages:
     - 3.0.35
     - 3.0.36
     compatible:
-    - 3.0.31
-    - 3.0.34
-    - 3.0.35
     - 3.0.36
     recommended: 3.0.36
     deprecated: []
@@ -467,18 +461,18 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638651995659960000
+  datePublishedTicks: 638799562419060000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: 700eb86ebc7b9f72d760e2e1c740fc5e2fd6a54b
+    revision: b5315083ab3861d21f6ab2ed0d9514daf04bf208
     path: 
   unityLifecycle:
-    version: 3.0.31
+    version: 3.0.36
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -488,21 +482,22 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"- Bump Unity minimum supported version"}'
+  upmReserved: '{"changelog":"- fix RIDER-124592 Avoid affecting \"Strip Engine Code\"
+    while IL2CPP debug enabled"}'
   assetStore:
     productId: 
-  fingerprint: ecbf706690e5ce42dc165ddd8e5754acda3dc6b9
+  fingerprint: 4d374c7eb6db6907c7e6925e3086c3c73f926e13
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 3.0.31
+    minimumPackageVersion: 3.0.36
     minimumUnityVersion: 2019.4.6f1
-- packageId: com.unity.ide.visualstudio@2.0.22
+- packageId: com.unity.ide.visualstudio@2.0.23
   testable: 0
   isDirectDependency: 1
-  version: 2.0.22
+  version: 2.0.23
   source: 1
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.ide.visualstudio
+  resolvedPath: /Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
+    Robot Controller/Library/PackageCache/com.unity.ide.visualstudio@198cdf337d13
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -511,7 +506,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: Code editor integration for supporting Visual Studio as code editor
     for unity. Adds support for generating csproj files for intellisense purposes,
     auto discovery of installations, etc.
@@ -544,7 +539,6 @@ m_ResolvedPackages:
     - 2.0.22
     - 2.0.23
     compatible:
-    - 2.0.22
     - 2.0.23
     recommended: 2.0.23
     deprecated: []
@@ -553,7 +547,7 @@ m_ResolvedPackages:
     version: 1.1.9
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.4.5
+    version: 1.5.1
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui
@@ -571,18 +565,18 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638326061910000000
+  datePublishedTicks: 638786696173840000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: 700b44077345e97d37d464ff25507638983aed64
+    revision: 0fe3b29f9aff2b90b9f0962ae35036a824d3dd6b
     path: 
   unityLifecycle:
-    version: 2.0.22
+    version: 2.0.23
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -592,26 +586,25 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"Integration:\n\n- Add support for `XDG_DATA_DIRS` and
-    `.desktop` files on Linux for `VS Code` discovery.\n- Use compile-time platform-specifics
-    instead of using runtime conditions.\n\nProject generation:\n\n- Suppress `USG0001`
-    warnings.\n- Mark referenced assemblies as private (to not copy extra files to
-    output directory when building).\n- Add Unity capability to SDK-Style projects.\n-
-    Prevent circular dependency errors with SDK-Style projects."}'
+  upmReserved: '{"changelog":"Integration:\n\n- Monitor `additionalfile` extension
+    by default.\n- Try opening a Visual Studio Code workspace if there''s one (`.code-workspace`
+    file in the Unity project).\n\nProject generation:\n\n- Identify `asset`, `meta`,
+    `prefab` and `unity` files as `yaml` (Visual Studio Code).\n- Add `sln`/`csproj`
+    file nesting (Visual Studio Code).\n- Improve SDK style project generation."}'
   assetStore:
     productId: 
-  fingerprint: 8140e851d83e922ca2021b04a89519de94ebe38c
+  fingerprint: 198cdf337d13c83ca953581515630d66b779e92b
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.0.22
+    minimumPackageVersion: 2.0.23
     minimumUnityVersion: 2019.4.25f1
 - packageId: com.unity.multiplayer.center@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.multiplayer.center
+  resolvedPath: /Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
+    Robot Controller/Library/PackageCache/com.unity.multiplayer.center@f3fb577b3546
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -691,18 +684,18 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: b27203cbee4b0eb1910981fa8a1f299c8134b318
+  fingerprint: f3fb577b3546594b97b8cc34307cd621f60f1c73
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 6000.0.0a1
-- packageId: com.unity.test-framework@1.4.5
+- packageId: com.unity.test-framework@1.5.1
   testable: 0
   isDirectDependency: 1
-  version: 1.4.5
-  source: 1
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.test-framework
+  version: 1.5.1
+  source: 2
+  resolvedPath: /Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
+    Robot Controller/Library/PackageCache/com.unity.test-framework@4969648bc874
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -711,7 +704,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Unity Test Framework
-  type: assets
+  type: 
   description: Test framework for running Edit mode and Play mode tests in Unity.
   errors: []
   versions:
@@ -766,18 +759,18 @@ m_ResolvedPackages:
     - 1.4.4
     - 1.4.5
     - 1.4.6
+    - 1.5.1
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
     - 2.0.1-pre.18
     compatible:
-    - 1.4.5
-    - 1.4.6
+    - 1.5.1
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
     - 2.0.1-pre.18
-    recommended: 1.4.6
+    recommended: 1.5.1
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
@@ -806,18 +799,18 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638575054880000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.test-framework@1.4/manual/index.html
-  hasRepository: 1
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
   repository:
-    type: git
-    url: https://github.com/Unity-Technologies/com.unity.test-framework.git
-    revision: e50747c90fb18ab9f4f350b60d0fcdcae19bdebc
+    type: 
+    url: 
+    revision: 
     path: 
   unityLifecycle:
-    version: 1.4.5
+    version: 1.5.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -827,48 +820,21 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"- Fixed an issue where batchmode test runs would never
-    finish if a test yielded WaitForEndOfFrame (DSTR-1009).\n- Fixed an issue where
-    the location prompt was required when using the Install all tests in ''build''
-    folder option during test builds.\n- Canceling a PlayMode test run now correctly
-    restores the scene setup, instead of leaving the editor in the test scene.\n-
-    Fixed an issue where UnitySetUp did not fail when nested coroutines threw an
-    exception (DSTR-1007).\n- When selecting multiple tests and running them, the
-    test runner now correctly updates the details of the first selected test (UTF-602).\n-
-    The interaction mode and application idle time settings is now being changes
-    when running tests, resulting in faster test runs if not already in use (applies
-    to 2020.3 and later) (DSTR-690).\n- Fixed an issue where some NUnit attributes
-    caused errors and stopped async test runs (DSTR-1040).\n- Added support for the
-    MaxTime attribute on async and UnityTest methods (DSTR-1040).\n- Fixed a memory
-    leak issue where a large number of domain reloads within the same test could
-    crash the editor (DSTR-1023).\n- Changed to use a progress bar inside the test
-    runner window when running tests. This ensures that the progress bar is not fighting
-    to display when e.g. compiling scripts and also makes it easier to cancel a run.
-    This progress bar is displayed for all types of runs (EditMode, PlayMode and
-    Player). (UTF-596).\n- Fixed an issue where ignored tests with an attributes
-    did not display the ignore reason in the test runner UI.\n- Having multiple tests
-    with the same unique id no longer gives a error with ''An item with the same
-    key has already been added'', but instead logs an warning about the duplicate
-    id.\n- The result icons for test suites should no longer flicker when running
-    tests.\n- Ensured that test results ignored in the editor but run on a player
-    are not overwritten with ignore status when shown in the UI (DSTR-1042).\n- Fixed
-    an issue where the RunStarted event was not invoked correctly during a test run
-    (DSTR-1046).\n- Fixed an issue where TestStarted and TestFinished events were
-    repeated for ignored test fixtures after a domain reload (DSTR-986)."}'
+  upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 0a21eb82d95cd331643a1e0ce4e8e9a5f18954c8
+  fingerprint: 4969648bc8743a40daaf29d185a6c3a9501215a1
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.4.5
-    minimumUnityVersion: 2019.4.0a10
+    minimumPackageVersion: 1.5.1
+    minimumUnityVersion: 2022.3.0a1
 - packageId: com.unity.timeline@1.8.7
   testable: 0
   isDirectDependency: 1
   version: 1.8.7
   source: 1
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.timeline
+  resolvedPath: /Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
+    Robot Controller/Library/PackageCache/com.unity.timeline@c58b4ee65782
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -877,7 +843,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: Use Unity Timeline to create cinematic content, game-play sequences,
     audio sequences, and complex particle effects.
   errors: []
@@ -977,18 +943,18 @@ m_ResolvedPackages:
     recommended: 1.8.8
     deprecated: []
   dependencies:
-  - name: com.unity.modules.audio
-    version: 1.0.0
   - name: com.unity.modules.director
     version: 1.0.0
   - name: com.unity.modules.animation
     version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
   - name: com.unity.modules.particlesystem
     version: 1.0.0
   resolvedDependencies:
-  - name: com.unity.modules.audio
-    version: 1.0.0
   - name: com.unity.modules.director
+    version: 1.0.0
+  - name: com.unity.modules.audio
     version: 1.0.0
   - name: com.unity.modules.animation
     version: 1.0.0
@@ -1010,7 +976,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638524833900000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.8/manual/index.html
@@ -1049,13 +1015,13 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.8.7
     minimumUnityVersion: 2019.3.0a1
-- packageId: com.unity.toolchain.win-x86_64-linux-x86_64@2.0.9
+- packageId: com.unity.toolchain.win-x86_64-linux-x86_64@2.0.10
   testable: 0
   isDirectDependency: 1
-  version: 2.0.9
+  version: 2.0.10
   source: 1
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.toolchain.win-x86_64-linux-x86_64
+  resolvedPath: /Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
+    Robot Controller/Library/PackageCache/com.unity.toolchain.win-x86_64-linux-x86_64@426618737602
   assetPath: Packages/com.unity.toolchain.win-x86_64-linux-x86_64
   name: com.unity.toolchain.win-x86_64-linux-x86_64
   displayName: Toolchain Win Linux x64
@@ -1064,7 +1030,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: Cross-compilation toolchain to build player target Linux x86_64 on
     host Windows x86_64
   errors: []
@@ -1098,7 +1064,6 @@ m_ResolvedPackages:
     - 2.0.9
     - 2.0.10
     compatible:
-    - 2.0.9
     - 2.0.10
     recommended: 2.0.10
     deprecated: []
@@ -1129,16 +1094,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638500639580000000
+  datePublishedTicks: 638651066000810000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.toolchain.win-x86_64-linux-x86_64@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.sysroot.git
-    revision: bf7a008256a1175e0f8a0d7d26d6826cbfbe1bb2
+    revision: c5a32c15f32b7de0b0aa81c256ea52b322478b15
     path: 
   unityLifecycle:
-    version: 2.0.9
+    version: 2.0.10
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1148,21 +1113,21 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"Updated to Clang 9.0.1"}'
+  upmReserved: '{"changelog":"Optimized and reduced package size"}'
   assetStore:
     productId: 
-  fingerprint: 22f622e0821fc835034e57944ff152a3049178fe
+  fingerprint: 426618737602d0ff76e85db678b73b56aa2e891a
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.0.9
+    minimumPackageVersion: 2.0.10
     minimumUnityVersion: 2019.4.0a1
 - packageId: com.unity.ugui@2.0.0
   testable: 0
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.ugui
+  resolvedPath: /Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
+    Robot Controller/Library/PackageCache/com.unity.ugui@5c9fd4989cdd
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -1244,7 +1209,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 0187e0e77e6c4674362938fa5a77e1c92574f3dd
+  fingerprint: 5c9fd4989cdd8e57279d95edb174435a77f5c853
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.0
@@ -1254,8 +1219,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.modules.accessibility
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.accessibility
   assetPath: Packages/com.unity.modules.accessibility
   name: com.unity.modules.accessibility
   displayName: Accessibility
@@ -1322,8 +1286,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.modules.ai
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.ai
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1390,8 +1353,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.modules.androidjni
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.androidjni
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -1457,8 +1419,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.modules.animation
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.animation
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -1525,8 +1486,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.modules.assetbundle
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.assetbundle
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -1593,8 +1553,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.modules.audio
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.audio
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -1661,8 +1620,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.modules.cloth
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.cloth
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -1733,8 +1691,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.modules.director
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.director
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -1809,8 +1766,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.modules.imageconversion
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.imageconversion
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -1877,8 +1833,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.modules.imgui
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.imgui
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -1945,8 +1900,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.modules.jsonserialize
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.jsonserialize
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -2013,8 +1967,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.modules.particlesystem
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.particlesystem
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -2081,8 +2034,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.modules.physics
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -2149,8 +2101,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.modules.physics2d
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics2d
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -2217,8 +2168,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.modules.screencapture
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.screencapture
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -2289,8 +2239,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.modules.terrain
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.terrain
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -2357,8 +2306,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.modules.terrainphysics
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.terrainphysics
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -2433,8 +2381,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.modules.tilemap
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.tilemap
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -2504,8 +2451,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.modules.ui
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.ui
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -2572,8 +2518,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.modules.uielements
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.uielements
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -2656,8 +2601,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.modules.umbra
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.umbra
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -2724,8 +2668,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.modules.unityanalytics
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unityanalytics
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -2799,8 +2742,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.modules.unitywebrequest
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequest
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -2867,8 +2809,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestassetbundle
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -2943,8 +2884,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.modules.unitywebrequestaudio
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestaudio
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -3019,8 +2959,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.modules.unitywebrequesttexture
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequesttexture
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -3095,8 +3034,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.modules.unitywebrequestwww
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestwww
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -3187,8 +3125,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.modules.vehicles
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.vehicles
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -3259,8 +3196,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.modules.video
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.video
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -3339,8 +3275,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.modules.vr
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.vr
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -3421,8 +3356,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.modules.wind
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.wind
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -3489,8 +3423,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.modules.xr
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.xr
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -3569,8 +3502,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.modules.subsystems
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.subsystems
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -3641,8 +3573,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.modules.hierarchycore
+  resolvedPath: /Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.hierarchycore
   assetPath: Packages/com.unity.modules.hierarchycore
   name: com.unity.modules.hierarchycore
   displayName: Hierarchy Core
@@ -3709,8 +3640,8 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.10
   source: 1
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.sysroot
+  resolvedPath: /Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
+    Robot Controller/Library/PackageCache/com.unity.sysroot@7bbbb9339c14
   assetPath: Packages/com.unity.sysroot
   name: com.unity.sysroot
   displayName: Sysroot Base
@@ -3800,8 +3731,8 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.9
   source: 1
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.sysroot.linux-x86_64
+  resolvedPath: /Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
+    Robot Controller/Library/PackageCache/com.unity.sysroot.linux-x86_64@1998d1c7730e
   assetPath: Packages/com.unity.sysroot.linux-x86_64
   name: com.unity.sysroot.linux-x86_64
   displayName: Sysroot Linux x64
@@ -3891,9 +3822,9 @@ m_ResolvedPackages:
   testable: 0
   isDirectDependency: 0
   version: 2.0.5
-  source: 1
-  resolvedPath: /Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Library/PackageCache/com.unity.ext.nunit
+  source: 2
+  resolvedPath: /Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
+    Robot Controller/Library/PackageCache/com.unity.ext.nunit@031a54704bff
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -3902,7 +3833,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Libraries
-  type: assets
+  type: 
   description: A custom version of NUnit used by Unity Test Framework. Based on NUnit
     version 3.5 and works with all platforms, il2cpp and Mono AOT.
   errors: []
@@ -3938,15 +3869,15 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638236642220000000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ext.nunit@2.0/manual/index.html
-  hasRepository: 1
+  hasRepository: 0
   repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git
-    revision: 469fe0d46bfc26fbb32a53885ca4d12abcdae4ae
+    type: 
+    url: 
+    revision: 
     path: 
   unityLifecycle:
     version: 2.0.5
@@ -3959,12 +3890,12 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"- Fixing bug for InstanceID as struct changes"}'
+  upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 60ef35ffd3cd5e2f5c8887a4a4ca6148854cd092
+  fingerprint: 031a54704bffe39e6a0324909f8eaa4565bdebf2
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.5
     minimumUnityVersion: 2019.4.0a1
-m_BuiltInPackagesHash: 58144a8dde1d83f3c4a710a626e57c6ff83a4009
+m_BuiltInPackagesHash: e11ecbbf007786fd6e47b9b2868f91dd485d8c41

@@ -1,320 +1,415 @@
 {
   "context": {
-    "projectPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Packages",
-    "unityVersion": "6000.0.24f1"
+    "projectPath": "/Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Packages",
+    "unityVersion": "6000.1.4f1"
   },
   "inputs": [
-    "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Packages/manifest.json",
-    "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Packages/packages-lock.json"
+    "/Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Packages/manifest.json",
+    "/Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Packages/packages-lock.json",
+    "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
     "com.endel.nativewebsocket@https://github.com/endel/NativeWebSocket.git#upm": {
       "name": "com.endel.nativewebsocket",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.endel.nativewebsocket",
+      "displayName": "Native WebSockets",
+      "resolvedPath": "/Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.endel.nativewebsocket@c5101c077622",
       "fingerprint": "c5101c07762251edc82caad9e8a39d51b1229c31",
       "editorCompatibility": "2019.1.0a1",
       "version": "1.1.4",
-      "source": "git"
+      "source": "git",
+      "testable": false
     },
-    "com.unity.ai.navigation@2.0.4": {
+    "com.unity.ai.navigation@2.0.7": {
       "name": "com.unity.ai.navigation",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.ai.navigation",
-      "fingerprint": "3f89ad87253dcaae2d0bb583bd5ef4c4f2c17764",
-      "editorCompatibility": "2023.2.0a18",
-      "version": "2.0.4",
-      "source": "registry"
+      "displayName": "AI Navigation",
+      "resolvedPath": "/Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.ai.navigation@39ae74efb85f",
+      "fingerprint": "39ae74efb85f9b44dc389774fc59c2ce4a8aa3b6",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "2.0.7",
+      "source": "registry",
+      "testable": false
     },
-    "com.unity.collab-proxy@2.5.2": {
+    "com.unity.collab-proxy@2.8.2": {
       "name": "com.unity.collab-proxy",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.collab-proxy",
-      "fingerprint": "da7e55b87e08569f31766e7cabc37bc033c9c7f9",
-      "editorCompatibility": "2020.3.48f1",
-      "version": "2.5.2",
-      "source": "registry"
+      "displayName": "Version Control",
+      "resolvedPath": "/Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f",
+      "fingerprint": "c854d1f7d97fbe1905f3e3591ded6fe77d96e654",
+      "editorCompatibility": "2021.3.0f1",
+      "version": "2.8.2",
+      "source": "registry",
+      "testable": false
     },
-    "com.unity.ide.rider@3.0.34": {
+    "com.unity.ide.rider@3.0.36": {
       "name": "com.unity.ide.rider",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.ide.rider",
-      "fingerprint": "ecbf706690e5ce42dc165ddd8e5754acda3dc6b9",
+      "displayName": "JetBrains Rider Editor",
+      "resolvedPath": "/Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.ide.rider@4d374c7eb6db",
+      "fingerprint": "4d374c7eb6db6907c7e6925e3086c3c73f926e13",
       "editorCompatibility": "2019.4.6f1",
-      "version": "3.0.34",
-      "source": "registry"
+      "version": "3.0.36",
+      "source": "registry",
+      "testable": false
     },
-    "com.unity.ide.visualstudio@2.0.22": {
+    "com.unity.ide.visualstudio@2.0.23": {
       "name": "com.unity.ide.visualstudio",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.ide.visualstudio",
-      "fingerprint": "8140e851d83e922ca2021b04a89519de94ebe38c",
+      "displayName": "Visual Studio Editor",
+      "resolvedPath": "/Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.ide.visualstudio@198cdf337d13",
+      "fingerprint": "198cdf337d13c83ca953581515630d66b779e92b",
       "editorCompatibility": "2019.4.25f1",
-      "version": "2.0.22",
-      "source": "registry"
+      "version": "2.0.23",
+      "source": "registry",
+      "testable": false
     },
     "com.unity.multiplayer.center@1.0.0": {
       "name": "com.unity.multiplayer.center",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.multiplayer.center",
-      "fingerprint": "b27203cbee4b0eb1910981fa8a1f299c8134b318",
+      "displayName": "Multiplayer Center",
+      "resolvedPath": "/Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.multiplayer.center@f3fb577b3546",
+      "fingerprint": "f3fb577b3546594b97b8cc34307cd621f60f1c73",
       "editorCompatibility": "6000.0.0a1",
       "version": "1.0.0",
-      "source": "builtin"
+      "source": "builtin",
+      "testable": false
     },
-    "com.unity.test-framework@1.4.5": {
+    "com.unity.test-framework@1.5.1": {
       "name": "com.unity.test-framework",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.test-framework",
-      "fingerprint": "0a21eb82d95cd331643a1e0ce4e8e9a5f18954c8",
-      "editorCompatibility": "2019.4.0a10",
-      "version": "1.4.5",
-      "source": "registry"
+      "displayName": "Test Framework",
+      "resolvedPath": "/Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.test-framework@4969648bc874",
+      "fingerprint": "4969648bc8743a40daaf29d185a6c3a9501215a1",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "1.5.1",
+      "source": "builtin",
+      "testable": false
     },
     "com.unity.timeline@1.8.7": {
       "name": "com.unity.timeline",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.timeline",
+      "displayName": "Timeline",
+      "resolvedPath": "/Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.timeline@c58b4ee65782",
       "fingerprint": "c58b4ee65782ad38338e29f7ee67787cb6998f04",
       "editorCompatibility": "2019.3.0a1",
       "version": "1.8.7",
-      "source": "registry"
+      "source": "registry",
+      "testable": false
     },
-    "com.unity.toolchain.win-x86_64-linux-x86_64@2.0.9": {
+    "com.unity.toolchain.win-x86_64-linux-x86_64@2.0.10": {
       "name": "com.unity.toolchain.win-x86_64-linux-x86_64",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.toolchain.win-x86_64-linux-x86_64",
-      "fingerprint": "22f622e0821fc835034e57944ff152a3049178fe",
+      "displayName": "Toolchain Win Linux x64",
+      "resolvedPath": "/Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.toolchain.win-x86_64-linux-x86_64@426618737602",
+      "fingerprint": "426618737602d0ff76e85db678b73b56aa2e891a",
       "editorCompatibility": "2019.4.0a1",
-      "version": "2.0.9",
-      "source": "registry"
+      "version": "2.0.10",
+      "source": "registry",
+      "testable": false
     },
     "com.unity.ugui@2.0.0": {
       "name": "com.unity.ugui",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.ugui",
-      "fingerprint": "0187e0e77e6c4674362938fa5a77e1c92574f3dd",
+      "displayName": "Unity UI",
+      "resolvedPath": "/Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.ugui@5c9fd4989cdd",
+      "fingerprint": "5c9fd4989cdd8e57279d95edb174435a77f5c853",
       "editorCompatibility": "2019.2.0a1",
       "version": "2.0.0",
-      "source": "builtin"
+      "source": "builtin",
+      "testable": false
     },
     "com.unity.modules.accessibility@1.0.0": {
       "name": "com.unity.modules.accessibility",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.modules.accessibility",
+      "displayName": "Accessibility",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.accessibility",
       "version": "1.0.0",
-      "source": "builtin"
+      "source": "builtin",
+      "testable": false
     },
     "com.unity.modules.ai@1.0.0": {
       "name": "com.unity.modules.ai",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.modules.ai",
+      "displayName": "AI",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.ai",
       "version": "1.0.0",
-      "source": "builtin"
+      "source": "builtin",
+      "testable": false
     },
     "com.unity.modules.androidjni@1.0.0": {
       "name": "com.unity.modules.androidjni",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.modules.androidjni",
+      "displayName": "Android JNI",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.androidjni",
       "version": "1.0.0",
-      "source": "builtin"
+      "source": "builtin",
+      "testable": false
     },
     "com.unity.modules.animation@1.0.0": {
       "name": "com.unity.modules.animation",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.modules.animation",
+      "displayName": "Animation",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.animation",
       "version": "1.0.0",
-      "source": "builtin"
+      "source": "builtin",
+      "testable": false
     },
     "com.unity.modules.assetbundle@1.0.0": {
       "name": "com.unity.modules.assetbundle",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.modules.assetbundle",
+      "displayName": "Asset Bundle",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.assetbundle",
       "version": "1.0.0",
-      "source": "builtin"
+      "source": "builtin",
+      "testable": false
     },
     "com.unity.modules.audio@1.0.0": {
       "name": "com.unity.modules.audio",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.modules.audio",
+      "displayName": "Audio",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.audio",
       "version": "1.0.0",
-      "source": "builtin"
+      "source": "builtin",
+      "testable": false
     },
     "com.unity.modules.cloth@1.0.0": {
       "name": "com.unity.modules.cloth",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.modules.cloth",
+      "displayName": "Cloth",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.cloth",
       "version": "1.0.0",
-      "source": "builtin"
+      "source": "builtin",
+      "testable": false
     },
     "com.unity.modules.director@1.0.0": {
       "name": "com.unity.modules.director",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.modules.director",
+      "displayName": "Director",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.director",
       "version": "1.0.0",
-      "source": "builtin"
+      "source": "builtin",
+      "testable": false
     },
     "com.unity.modules.imageconversion@1.0.0": {
       "name": "com.unity.modules.imageconversion",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.modules.imageconversion",
+      "displayName": "Image Conversion",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.imageconversion",
       "version": "1.0.0",
-      "source": "builtin"
+      "source": "builtin",
+      "testable": false
     },
     "com.unity.modules.imgui@1.0.0": {
       "name": "com.unity.modules.imgui",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.modules.imgui",
+      "displayName": "IMGUI",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.imgui",
       "version": "1.0.0",
-      "source": "builtin"
+      "source": "builtin",
+      "testable": false
     },
     "com.unity.modules.jsonserialize@1.0.0": {
       "name": "com.unity.modules.jsonserialize",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.modules.jsonserialize",
+      "displayName": "JSONSerialize",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.jsonserialize",
       "version": "1.0.0",
-      "source": "builtin"
+      "source": "builtin",
+      "testable": false
     },
     "com.unity.modules.particlesystem@1.0.0": {
       "name": "com.unity.modules.particlesystem",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.modules.particlesystem",
+      "displayName": "Particle System",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.particlesystem",
       "version": "1.0.0",
-      "source": "builtin"
+      "source": "builtin",
+      "testable": false
     },
     "com.unity.modules.physics@1.0.0": {
       "name": "com.unity.modules.physics",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.modules.physics",
+      "displayName": "Physics",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics",
       "version": "1.0.0",
-      "source": "builtin"
+      "source": "builtin",
+      "testable": false
     },
     "com.unity.modules.physics2d@1.0.0": {
       "name": "com.unity.modules.physics2d",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.modules.physics2d",
+      "displayName": "Physics 2D",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics2d",
       "version": "1.0.0",
-      "source": "builtin"
+      "source": "builtin",
+      "testable": false
     },
     "com.unity.modules.screencapture@1.0.0": {
       "name": "com.unity.modules.screencapture",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.modules.screencapture",
+      "displayName": "Screen Capture",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.screencapture",
       "version": "1.0.0",
-      "source": "builtin"
+      "source": "builtin",
+      "testable": false
     },
     "com.unity.modules.terrain@1.0.0": {
       "name": "com.unity.modules.terrain",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.modules.terrain",
+      "displayName": "Terrain",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.terrain",
       "version": "1.0.0",
-      "source": "builtin"
+      "source": "builtin",
+      "testable": false
     },
     "com.unity.modules.terrainphysics@1.0.0": {
       "name": "com.unity.modules.terrainphysics",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.modules.terrainphysics",
+      "displayName": "Terrain Physics",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.terrainphysics",
       "version": "1.0.0",
-      "source": "builtin"
+      "source": "builtin",
+      "testable": false
     },
     "com.unity.modules.tilemap@1.0.0": {
       "name": "com.unity.modules.tilemap",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.modules.tilemap",
+      "displayName": "Tilemap",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.tilemap",
       "version": "1.0.0",
-      "source": "builtin"
+      "source": "builtin",
+      "testable": false
     },
     "com.unity.modules.ui@1.0.0": {
       "name": "com.unity.modules.ui",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.modules.ui",
+      "displayName": "UI",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.ui",
       "version": "1.0.0",
-      "source": "builtin"
+      "source": "builtin",
+      "testable": false
     },
     "com.unity.modules.uielements@1.0.0": {
       "name": "com.unity.modules.uielements",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.modules.uielements",
+      "displayName": "UIElements",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.uielements",
       "version": "1.0.0",
-      "source": "builtin"
+      "source": "builtin",
+      "testable": false
     },
     "com.unity.modules.umbra@1.0.0": {
       "name": "com.unity.modules.umbra",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.modules.umbra",
+      "displayName": "Umbra",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.umbra",
       "version": "1.0.0",
-      "source": "builtin"
+      "source": "builtin",
+      "testable": false
     },
     "com.unity.modules.unityanalytics@1.0.0": {
       "name": "com.unity.modules.unityanalytics",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.modules.unityanalytics",
+      "displayName": "Unity Analytics",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unityanalytics",
       "version": "1.0.0",
-      "source": "builtin"
+      "source": "builtin",
+      "testable": false
     },
     "com.unity.modules.unitywebrequest@1.0.0": {
       "name": "com.unity.modules.unitywebrequest",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.modules.unitywebrequest",
+      "displayName": "Unity Web Request",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequest",
       "version": "1.0.0",
-      "source": "builtin"
+      "source": "builtin",
+      "testable": false
     },
     "com.unity.modules.unitywebrequestassetbundle@1.0.0": {
       "name": "com.unity.modules.unitywebrequestassetbundle",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle",
+      "displayName": "Unity Web Request Asset Bundle",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestassetbundle",
       "version": "1.0.0",
-      "source": "builtin"
+      "source": "builtin",
+      "testable": false
     },
     "com.unity.modules.unitywebrequestaudio@1.0.0": {
       "name": "com.unity.modules.unitywebrequestaudio",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.modules.unitywebrequestaudio",
+      "displayName": "Unity Web Request Audio",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestaudio",
       "version": "1.0.0",
-      "source": "builtin"
+      "source": "builtin",
+      "testable": false
     },
     "com.unity.modules.unitywebrequesttexture@1.0.0": {
       "name": "com.unity.modules.unitywebrequesttexture",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.modules.unitywebrequesttexture",
+      "displayName": "Unity Web Request Texture",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequesttexture",
       "version": "1.0.0",
-      "source": "builtin"
+      "source": "builtin",
+      "testable": false
     },
     "com.unity.modules.unitywebrequestwww@1.0.0": {
       "name": "com.unity.modules.unitywebrequestwww",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.modules.unitywebrequestwww",
+      "displayName": "Unity Web Request WWW",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestwww",
       "version": "1.0.0",
-      "source": "builtin"
+      "source": "builtin",
+      "testable": false
     },
     "com.unity.modules.vehicles@1.0.0": {
       "name": "com.unity.modules.vehicles",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.modules.vehicles",
+      "displayName": "Vehicles",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.vehicles",
       "version": "1.0.0",
-      "source": "builtin"
+      "source": "builtin",
+      "testable": false
     },
     "com.unity.modules.video@1.0.0": {
       "name": "com.unity.modules.video",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.modules.video",
+      "displayName": "Video",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.video",
       "version": "1.0.0",
-      "source": "builtin"
+      "source": "builtin",
+      "testable": false
     },
     "com.unity.modules.vr@1.0.0": {
       "name": "com.unity.modules.vr",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.modules.vr",
+      "displayName": "VR",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.vr",
       "version": "1.0.0",
-      "source": "builtin"
+      "source": "builtin",
+      "testable": false
     },
     "com.unity.modules.wind@1.0.0": {
       "name": "com.unity.modules.wind",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.modules.wind",
+      "displayName": "Wind",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.wind",
       "version": "1.0.0",
-      "source": "builtin"
+      "source": "builtin",
+      "testable": false
     },
     "com.unity.modules.xr@1.0.0": {
       "name": "com.unity.modules.xr",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.modules.xr",
+      "displayName": "XR",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.xr",
       "version": "1.0.0",
-      "source": "builtin"
+      "source": "builtin",
+      "testable": false
     },
     "com.unity.modules.subsystems@1.0.0": {
       "name": "com.unity.modules.subsystems",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.modules.subsystems",
+      "displayName": "Subsystems",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.subsystems",
       "version": "1.0.0",
-      "source": "builtin"
+      "source": "builtin",
+      "testable": false
     },
     "com.unity.modules.hierarchycore@1.0.0": {
       "name": "com.unity.modules.hierarchycore",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.modules.hierarchycore",
+      "displayName": "Hierarchy Core",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.hierarchycore",
       "version": "1.0.0",
-      "source": "builtin"
+      "source": "builtin",
+      "testable": false
     },
     "com.unity.sysroot@2.0.10": {
       "name": "com.unity.sysroot",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.sysroot",
+      "displayName": "Sysroot Base",
+      "resolvedPath": "/Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.sysroot@7bbbb9339c14",
       "fingerprint": "7bbbb9339c143f6fbccaeb0a52c77b9217b35a71",
       "editorCompatibility": "2019.4.0a1",
       "version": "2.0.10",
-      "source": "registry"
+      "source": "registry",
+      "testable": false
     },
     "com.unity.sysroot.linux-x86_64@2.0.9": {
       "name": "com.unity.sysroot.linux-x86_64",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.sysroot.linux-x86_64",
+      "displayName": "Sysroot Linux x64",
+      "resolvedPath": "/Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.sysroot.linux-x86_64@1998d1c7730e",
       "fingerprint": "1998d1c7730e48fa49f28d983fececfc9cbd970b",
       "editorCompatibility": "2019.4.0a1",
       "version": "2.0.9",
-      "source": "registry"
+      "source": "registry",
+      "testable": false
     },
     "com.unity.ext.nunit@2.0.5": {
       "name": "com.unity.ext.nunit",
-      "resolvedPath": "/Users/hyperspace/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.ext.nunit",
-      "fingerprint": "60ef35ffd3cd5e2f5c8887a4a4ca6148854cd092",
+      "displayName": "Custom NUnit",
+      "resolvedPath": "/Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.ext.nunit@031a54704bff",
+      "fingerprint": "031a54704bffe39e6a0324909f8eaa4565bdebf2",
       "editorCompatibility": "2019.4.0a1",
       "version": "2.0.5",
-      "source": "registry"
+      "source": "builtin",
+      "testable": false
     }
   }
 }

@@ -49,22 +49,19 @@ public class Cobot3DIK : MonoBehaviour
     {
         Vector3 lookPos = targetPosition - origin;
         lookPos.y = 0;
-        J1Object.rotation = Quaternion.LookRotation(lookPos);
+        Quaternion lookRotation = Quaternion.LookRotation(lookPos) * Quaternion.Euler(0, 180, 0);
+        J1Object.rotation = lookRotation;
+        return lookRotation.eulerAngles.y;
 
-        return Quaternion.LookRotation(lookPos).eulerAngles.y;
     }
 
     public float GetJoint1Angle()
     {
         float angle = CalculateJoint1Angle(J1Object.position, reference.position);
-        if (0 <= angle && angle <= 180)
-        {
-            //angle = angle;
-        }
-        else
-        {
-            angle = Mathf.Clamp(angle - 360, -165, 165);
-        }
+        
+        angle = (angle > 180) ? angle - 360 : angle;
+        angle = Mathf.Clamp(angle, -165, 165);
+
         return angle;
     }
 
