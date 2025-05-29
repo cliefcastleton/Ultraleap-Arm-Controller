@@ -124,6 +124,7 @@
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -define:UNITY_EDITOR_ONLY_COMPILATION
+-r:"/Applications/Unity/Hub/Editor/6000.1.4f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
 -r:"/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Managed/UnityEditor.Graphs.dll"
 -r:"/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.AccessibilityModule.dll"
 -r:"/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.AdaptivePerformanceModule.dll"

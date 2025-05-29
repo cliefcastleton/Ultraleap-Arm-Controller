@@ -7224,7 +7224,7 @@ MonoBehaviour:
   simulationReference: {fileID: 933277863}
   inputMultiplier: 1
   xySensitivity: 1.25
-  zSensitivity: 1
+  zSensitivity: 1.4
   outputLabel: {fileID: 859055354}
   currentPose: 
   contactCobot: {fileID: 1039238535}

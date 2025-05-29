@@ -1,0 +1,289 @@
+{
+  "Nodes": [
+    {
+      "Annotation": "all_tundra_nodes",
+      "DisplayName": null,
+      "Inputs": [],
+      "InputFlags": [],
+      "Outputs": [],
+      "OutputFlags": [],
+      "ToBuildDependencies": [
+        1,
+        2,
+        3
+      ],
+      "DebugActionIndex": 0
+    },
+    {
+      "Annotation": "ScriptAssemblies",
+      "DisplayName": null,
+      "Inputs": [],
+      "InputFlags": [],
+      "Outputs": [],
+      "OutputFlags": [],
+      "DebugActionIndex": 1
+    },
+    {
+      "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
+      "DisplayName": "Extracting script serialization layouts",
+      "Action": "\"/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"/Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Assets/WillData/websocket-sharp.dll\" -a=\"/Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/ScriptAssemblies/Assembly-CSharp.dll\" -a=\"/Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/ScriptAssemblies/endel.nativewebsocket.dll\" -a=\"/Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/ScriptAssemblies/LeapMotion.LeapCSharp.dll\" -a=\"/Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/ScriptAssemblies/Ultraleap.Tracking.Core.dll\" -a=\"/Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/ScriptAssemblies/Ultraleap.Tracking.Hands.dll\" -a=\"/Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/ScriptAssemblies/Ultraleap.Tracking.InteractionEngine.dll\" -a=\"/Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/ScriptAssemblies/Unity.AI.Navigation.dll\" -a=\"/Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/ScriptAssemblies/Unity.Multiplayer.Center.Common.dll\" -a=\"/Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/ScriptAssemblies/Unity.TextMeshPro.dll\" -a=\"/Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/ScriptAssemblies/Unity.Timeline.dll\" -a=\"/Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/ScriptAssemblies/UnityEngine.TestRunner.dll\" -a=\"/Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/ScriptAssemblies/UnityEngine.UI.dll\" -a=\"/Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.ext.nunit@031a54704bff/net40/unity-custom/nunit.framework.dll\" -s=\"/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Managed/UnityEngine\" -s=\"/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api\" -s=\"/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades\" -s=\"/Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Assets/WillData\" -s=\"/Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/ScriptAssemblies\" -s=\"/Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/PackageCache/com.unity.ext.nunit@031a54704bff/net40/unity-custom\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Inputs": [
+        "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/netcorerun/netcorerun",
+        "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
+        "Assets/WillData/websocket-sharp.dll",
+        "Library/ScriptAssemblies/Assembly-CSharp.dll",
+        "Library/ScriptAssemblies/endel.nativewebsocket.dll",
+        "Library/ScriptAssemblies/LeapMotion.LeapCSharp.dll",
+        "Library/ScriptAssemblies/Ultraleap.Tracking.Core.dll",
+        "Library/ScriptAssemblies/Ultraleap.Tracking.Hands.dll",
+        "Library/ScriptAssemblies/Ultraleap.Tracking.InteractionEngine.dll",
+        "Library/ScriptAssemblies/Unity.AI.Navigation.dll",
+        "Library/ScriptAssemblies/Unity.Multiplayer.Center.Common.dll",
+        "Library/ScriptAssemblies/Unity.TextMeshPro.dll",
+        "Library/ScriptAssemblies/Unity.Timeline.dll",
+        "Library/ScriptAssemblies/UnityEngine.TestRunner.dll",
+        "Library/ScriptAssemblies/UnityEngine.UI.dll",
+        "Library/PackageCache/com.unity.ext.nunit@031a54704bff/net40/unity-custom/nunit.framework.dll"
+      ],
+      "InputFlags": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/BuildPlayerData/Editor/TypeDb-All.json"
+      ],
+      "OutputFlags": [
+        0
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 2
+    },
+    {
+      "Annotation": "ScriptAssembliesAndTypeDB",
+      "DisplayName": null,
+      "Inputs": [],
+      "InputFlags": [],
+      "Outputs": [],
+      "OutputFlags": [],
+      "ToBuildDependencies": [
+        1,
+        2
+      ],
+      "DebugActionIndex": 3
+    }
+  ],
+  "FileSignatures": [
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/BuildPipeline/Bee.BuildTools.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Core.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/BuildPipeline/Bee.CSharpSupport.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/BuildPipeline/Bee.DotNet.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/BuildPipeline/Bee.NativeProgramSupport.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Stevedore.Program.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/BuildPipeline/Bee.TinyProfiler2.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.GNU.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Tools.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/BuildPipeline/Bee.TundraBackend.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/BuildPipeline/Bee.VisualStudioSolution.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/BuildPipeline/BeeBuildProgramCommon.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/BuildPipeline/Newtonsoft.Json.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/BuildPipeline/NiceIO.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/BuildPipeline/SharpYaml.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Api.Attributes.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.Mdb.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.Pdb.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.Rocks.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Api.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Linker.Api.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Options.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/BuildPipeline/UnityEditor.iOS.Extensions.Xcode.dll"
+    },
+    {
+      "File": "Library/Bee/1900b0aESkipCompile-inputdata.json"
+    }
+  ],
+  "StatSignatures": [
+    {
+      "File": "/Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/getconf"
+    },
+    {
+      "File": "Assets/csc.rsp"
+    },
+    {
+      "File": "Assets/mcs.rsp"
+    },
+    {
+      "File": "Assets/WillData/websocket-sharp.dll"
+    },
+    {
+      "File": "Library/Bee/1900b0aESkipCompile-inputdata.json"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.ext.nunit@031a54704bff/net40/unity-custom/nunit.framework.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Assembly-CSharp.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/endel.nativewebsocket.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/LeapMotion.LeapCSharp.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Ultraleap.Tracking.Core.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Ultraleap.Tracking.Hands.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Ultraleap.Tracking.InteractionEngine.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.AI.Navigation.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Multiplayer.Center.Common.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.TextMeshPro.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Timeline.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/UnityEngine.TestRunner.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/UnityEngine.UI.dll"
+    }
+  ],
+  "GlobSignatures": [
+    {
+      "Path": "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/BuildPipeline"
+    }
+  ],
+  "ContentDigestExtensions": [
+    ".rsp",
+    ".dll",
+    ".exe",
+    ".pdb",
+    ".json",
+    ".csproj"
+  ],
+  "StructuredLogFileName": "Library/Bee/tundra.log.json",
+  "StateFileName": "Library/Bee/TundraBuildState.state",
+  "StateFileNameTmp": "Library/Bee/TundraBuildState.state.tmp",
+  "StateFileNameMapped": "Library/Bee/TundraBuildState.state.map",
+  "ScanCacheFileName": "Library/Bee/tundra.scancache",
+  "ScanCacheFileNameTmp": "Library/Bee/tundra.scancache.tmp",
+  "DigestCacheFileName": "Library/Bee/tundra.digestcache",
+  "DigestCacheFileNameTmp": "Library/Bee/tundra.digestcache.tmp",
+  "CachedNodeOutputDirectoryName": "Library/Bee/CachedNodeOutput",
+  "EmitDataForBeeWhy": 0,
+        "NamedNodes": {
+          "all_tundra_nodes": 0,
+          "ScriptAssemblies": 1,
+          "ScriptAssembliesAndTypeDB": 3
+        }
+,  "DefaultNodes": [
+    0
+  ],
+  "SharedResources": [],
+  "Scanners": [],
+  "Identifier": "Library/Bee/1900b0aESkipCompile.dag.json",
+  "PayloadsFile": "/Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap Robot Controller/Library/Bee/1900b0aESkipCompile.dag.payloads",
+  "RelativePathToRoot": "../.."
+}
