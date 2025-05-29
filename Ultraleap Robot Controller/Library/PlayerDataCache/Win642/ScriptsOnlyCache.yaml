@@ -31,6 +31,8 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
+    Unity.Timeline.Editor.dll:
+    - TimelineProjectSettings
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.CommandLineTest.RunData
@@ -1231,4 +1233,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/WillData/Scenes/MainControl.unity
   playerPath: /Users/will/Desktop/Programming/Unity Projects/Ultraleap-Arm-Controller/Ultraleap
-    Robot Controller/Builds/ChessBot Controller/Ultraleap Robot Controller.exe
+    Robot Controller/Builds/ChessBot Controller.app/ChessBot Controller.exe
