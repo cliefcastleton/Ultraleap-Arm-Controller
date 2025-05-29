@@ -18555,8 +18555,8 @@
       "DisplayName": "Writing app.info",
       "ActionType": "WriteFile",
       "PayloadOffset": 163955,
-      "PayloadLength": 40,
-      "PayloadDebugContentSnippet": "HuskyRobotics\nUltraleap Robot ",
+      "PayloadLength": 33,
+      "PayloadDebugContentSnippet": "HuskyRobotics\nChessBot Control",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
@@ -18589,7 +18589,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityPlayer.dylib_siqw.info",
       "DisplayName": "Writing UnityPlayer.dylib_siqw.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 164090,
+      "PayloadOffset": 164083,
       "PayloadLength": 652,
       "PayloadDebugContentSnippet": "{\"UnityEditor.OSXStandalone.Co",
       "Inputs": [],
@@ -19130,8 +19130,8 @@
       "Annotation": "WriteText Builds/ChessBot Controller.app/Contents/Info.plist",
       "DisplayName": "Writing Info.plist",
       "ActionType": "WriteFile",
-      "PayloadOffset": 164824,
-      "PayloadLength": 1563,
+      "PayloadOffset": 164817,
+      "PayloadLength": 1542,
       "PayloadDebugContentSnippet": "<?xml version=\"1.0\" encoding=\"",
       "Inputs": [],
       "InputFlags": [],
@@ -19147,7 +19147,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/PrivacyInfo.xcprivacy_kghi.info",
       "DisplayName": "Writing PrivacyInfo.xcprivacy_kghi.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 166486,
+      "PayloadOffset": 166458,
       "PayloadLength": 779,
       "PayloadDebugContentSnippet": "{\"System.String[]\":[\"/Applicat",
       "Inputs": [],
@@ -19237,16 +19237,16 @@
       "DebugActionIndex": 366
     },
     {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Ultraleap Robot Controller_stue.info",
-      "DisplayName": "Writing Ultraleap Robot Controller_stue.info",
+      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/ChessBot Controller_vic8.info",
+      "DisplayName": "Writing ChessBot Controller_vic8.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 167369,
-      "PayloadLength": 14697,
+      "PayloadOffset": 167334,
+      "PayloadLength": 14683,
       "PayloadDebugContentSnippet": "{\"MacOSCodeSignBundleInPlace+D",
       "Inputs": [],
       "InputFlags": [],
       "Outputs": [
-        "Library/Bee/artifacts/csharpactions/Ultraleap Robot Controller_stue.info"
+        "Library/Bee/artifacts/csharpactions/ChessBot Controller_vic8.info"
       ],
       "OutputFlags": [
         2
@@ -19254,9 +19254,9 @@
       "DebugActionIndex": 367
     },
     {
-      "Annotation": "MacOSCodeSignBundleInPlace Builds/ChessBot Controller.app/Contents/MacOS/Ultraleap Robot Controller (+1 other)",
+      "Annotation": "MacOSCodeSignBundleInPlace Builds/ChessBot Controller.app/Contents/MacOS/ChessBot Controller (+1 other)",
       "DisplayName": "Code signing ChessBot Controller.app",
-      "Action": "\"/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/MacStandalonePlayerBuildProgram.exe\" \"/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/Bee:/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/BuildPipeline\" invoke_static_method \"Library/Bee/artifacts/csharpactions/Ultraleap Robot Controller_stue.info\"",
+      "Action": "\"/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/MacStandalonePlayerBuildProgram.exe\" \"/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/Bee:/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/Tools/BuildPipeline\" invoke_static_method \"Library/Bee/artifacts/csharpactions/ChessBot Controller_vic8.info\"",
       "Inputs": [
         "Builds/ChessBot Controller.app/Contents/Resources/Data/globalgamemanagers",
         "Builds/ChessBot Controller.app/Contents/Resources/Data/globalgamemanagers.assets",
@@ -19407,7 +19407,7 @@
         "Builds/ChessBot Controller.app/Contents/Info.plist",
         "Builds/ChessBot Controller.app/Contents/Resources/PrivacyInfo.xcprivacy",
         "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/Variations/macos_x64arm64_player_nondevelopment_mono/UnityPlayer.app/Contents/MacOS/UnityPlayer",
-        "Library/Bee/artifacts/csharpactions/Ultraleap Robot Controller_stue.info",
+        "Library/Bee/artifacts/csharpactions/ChessBot Controller_vic8.info",
         "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/baselib.a",
         "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/MacOSCodeSigning.dll",
         "/Applications/Unity/Hub/Editor/6000.1.4f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/MacOSCodeSigning.pdb",
@@ -19590,7 +19590,7 @@
         2
       ],
       "Outputs": [
-        "Builds/ChessBot Controller.app/Contents/MacOS/Ultraleap Robot Controller",
+        "Builds/ChessBot Controller.app/Contents/MacOS/ChessBot Controller",
         "Builds/ChessBot Controller.app/Contents/_CodeSignature/CodeResources"
       ],
       "OutputFlags": [
